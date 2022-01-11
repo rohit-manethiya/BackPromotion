@@ -2,7 +2,6 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>RohitM__SampleClass2</members>
-        <members>RohitM__SampleClassTest2</members>
         <name>ApexClass</name>
     </types>
     <version>53.0</version>
