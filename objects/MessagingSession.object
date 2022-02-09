@@ -177,6 +177,15 @@
         <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>TestQueue_MessagingSession</fullName>
+        <filterScope>Queue</filterScope>
+        <label>TestQueue</label>
+        <queue>TestQueue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>MessagingChannel</customTabListAdditionalFields>
         <customTabListAdditionalFields>MessagingEndUser</customTabListAdditionalFields>

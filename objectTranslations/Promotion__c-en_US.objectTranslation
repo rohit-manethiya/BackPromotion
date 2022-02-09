@@ -16,5 +16,13 @@
         <label><!-- Field 2 --></label>
         <name>Field_2__c</name>
     </fields>
+    <fields>
+        <label><!-- Field 3 --></label>
+        <name>Field_3__c</name>
+    </fields>
+    <recordTypes>
+        <label><!-- Test Record TYPE --></label>
+        <name>Test_Record_TYPE</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

@@ -4,7 +4,7 @@
     <doesApiLoginRequireOrgDomain>false</doesApiLoginRequireOrgDomain>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
-    <myDomainName>d2w00000ev2iyeaj-dev-ed</myDomainName>
+    <myDomainName>d2w00000ca64qead-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforceLimited</myDomainSuffix>
     <use3rdPartyCookieBlockingCompatibleHostnames>true</use3rdPartyCookieBlockingCompatibleHostnames>
     <useEdge>false</useEdge>

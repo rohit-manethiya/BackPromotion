@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Test Custom Settings</value>
     </caseValues>
+    <fields>
+        <label><!-- New Custom Field --></label>
+        <name>New_Custom_Field__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

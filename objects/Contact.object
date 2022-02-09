@@ -464,6 +464,10 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
+        <businessStatus>DeprecateCandidate</businessStatus>
+        <complianceGroup>PII</complianceGroup>
+        <description>Hello</description>
+        <inlineHelpText>Help Text Changed</inlineHelpText>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
