@@ -12,4 +12,12 @@
     </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>New CP Permission Set</label>
+    <pageAccesses>
+        <apexPage>MyProfilePage</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <tabSettings>
+        <tab>Promotion__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>
