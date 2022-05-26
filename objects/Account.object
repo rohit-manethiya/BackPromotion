@@ -345,6 +345,26 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>New_City_3__c</fullName>
+        <externalId>false</externalId>
+        <label>New City 3</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_City_4__c</fullName>
+        <externalId>false</externalId>
+        <label>New City 4</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>New_City__c</fullName>
         <externalId>false</externalId>
         <label>New City</label>
