@@ -8,5 +8,9 @@
         <plural>true</plural>
         <value>Deployes</value>
     </caseValues>
+    <fields>
+        <label><!-- Field 1 --></label>
+        <name>Field_1__c</name>
+    </fields>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

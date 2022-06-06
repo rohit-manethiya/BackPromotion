@@ -92,6 +92,13 @@
         <fields>WorkType</fields>
         <relatedList>ServiceTerritoryWorkType</relatedList>
     </relatedLists>
+    <relatedLists>
+        <fields>Label</fields>
+        <fields>StartTime</fields>
+        <fields>EndTime</fields>
+        <fields>Status</fields>
+        <relatedList>ServiceTerritoryShifts</relatedList>
+    </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
