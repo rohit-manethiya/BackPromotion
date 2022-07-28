@@ -4,5 +4,9 @@
         <members>Account-Rohit Account layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>samplelwc</members>
+        <name>LightningComponentBundle</name>
+    </types>
     <version>55.0</version>
 </Package>
