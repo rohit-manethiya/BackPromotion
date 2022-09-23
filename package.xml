@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.New_City_4__c</members>
-        <members>Account.New_City__c</members>
+        <members>Test_Custom_Settings__c.New_Custom_Field__c</members>
         <name>CustomField</name>
     </types>
     <version>55.0</version>
