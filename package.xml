@@ -5,8 +5,8 @@
         <name>BusinessProcess</name>
     </types>
     <types>
-        <members>Lead.testcompactlayout</members>
-        <name>CompactLayout</name>
+        <members>Lead.Industry</members>
+        <name>CustomField</name>
     </types>
     <types>
         <members>Lead.testrecordtype</members>
