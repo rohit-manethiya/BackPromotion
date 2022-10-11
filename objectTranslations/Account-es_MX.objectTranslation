@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>CustomerPriority__c</name>
+        <picklistValues>
+            <masterLabel>A / B</masterLabel>
+            <translation><!-- A / B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B / C</masterLabel>
+            <translation><!-- B / C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New City 2 --></label>
+        <name>New_City_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- New City --></label>
+        <name>New_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Picklist 1 --></label>
+        <name>New_Picklist_1__c</name>
+        <picklistValues>
+            <masterLabel>Sample 4</masterLabel>
+            <translation><!-- Sample 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample 5</masterLabel>
+            <translation><!-- Sample 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample 6</masterLabel>
+            <translation><!-- Sample 6 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Picklist --></label>
+        <name>New_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>Sample 1</masterLabel>
+            <translation><!-- Sample 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample 2</masterLabel>
+            <translation><!-- Sample 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sample 3</masterLabel>
+            <translation><!-- Sample 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Sample Field Test --></label>
+        <name>New_Sample_Field_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Text Field --></label>
+        <name>New_Text_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Locations --></label>
+        <name>NumberofLocations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picklist Record Type --></label>
+        <name>Picklist_Record_Type__c</name>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test 1</masterLabel>
+            <translation><!-- Test 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test 2</masterLabel>
+            <translation><!-- Test 2 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Opción para combinar las cantidades de múltiples activos para el mismo producto en una partida cuando se genera el presupuesto de renovación.</help>
+        <label><!-- Combine Asset Quantities --></label>
+        <name>SBQQ__AssetQuantitiesCombined__c</name>
+    </fields>
+    <fields>
+        <help>Active esta opción para combinar activos y suscripciones de múltiples contratos con plazos compartidos. Cada contrato con plazos compartidos genera de forma predeterminada un grupo separado en el presupuesto de renovación.</help>
+        <label><!-- Combine Co-Termed Contracts --></label>
+        <name>SBQQ__CoTermedContractsCombined__c</name>
+    </fields>
+    <fields>
+        <help>Determina el momento en que los contratos terminan de forma compartida</help>
+        <label><!-- Co-Termination Event --></label>
+        <name>SBQQ__CoTerminationEvent__c</name>
+        <picklistValues>
+            <masterLabel>Add-on</masterLabel>
+            <translation>Complemento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>Renovación</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Determina el modo en que los contratos de servicios y suscripciones terminan de forma compartida para este cliente.</help>
+        <label><!-- Contract Co-Termination --></label>
+        <name>SBQQ__ContractCoTermination__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Siempre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation>Nunca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prompt</masterLabel>
+            <translation>Preguntar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Oportunidad predeterminada para esta cuenta empleada en un módulo de comercio electrónico para obtener la lista de precios del cliente y asociarla con presupuestos de &quot;carrito de la compra&quot;.</help>
+        <label><!-- Default Opportunity --></label>
+        <name>SBQQ__DefaultOpportunity__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleccione esta opción si no se deben heredar los precios contratados desde la cuenta principal.</help>
+        <label><!-- Ignore Parent Contracted Prices --></label>
+        <name>SBQQ__IgnoreParentContractedPrices__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione la casilla de verificación para mantener la jerarquía del paquete en presupuestos de renovación y correcciones.</help>
+        <label><!-- Preserve Bundle Structure --></label>
+        <name>SBQQ__PreserveBundle__c</name>
+    </fields>
+    <fields>
+        <help>Ingrese la fecha hasta la que se deben mantener los precios.</help>
+        <label><!-- Price Hold End --></label>
+        <name>SBQQ__PriceHoldEnd__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione Basado en activos para hacer que las renovaciones se basen en los activos de una cuenta o seleccione Basado en suscripciones para hacer que las renovaciones se basen en las suscripciones creadas desde un presupuesto.</help>
+        <label><!-- Renewal Model --></label>
+        <name>SBQQ__RenewalModel__c</name>
+        <picklistValues>
+            <masterLabel>Asset Based</masterLabel>
+            <translation>Basado en activos</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Based</masterLabel>
+            <translation>Basado en contratos</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Utilice &quot;Igual&quot; para mantener el mismo precio pagado la última vez. Utilice &quot;Lista&quot; para utilizar el precio de lista actual. Utilice &quot;Incremento&quot; para utilizar el precio pagado la última vez más un incremento.</help>
+        <label><!-- Renewal Pricing Method --></label>
+        <name>SBQQ__RenewalPricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same</masterLabel>
+            <translation>Igual</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uplift</masterLabel>
+            <translation>Incremento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Se selecciona si esta cuenta tiene certificados activos</help>
+        <label><!-- Tax-Exempt --></label>
+        <name>SBQQ__TaxExempt__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>No</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Sí</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SLA Expiration Date --></label>
+        <name>SLAExpirationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA Serial Number --></label>
+        <name>SLASerialNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLA --></label>
+        <name>SLA__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sample Field Dev 1 --></label>
+        <name>Sample_Field_Dev_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample Field --></label>
+        <name>Sample_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sample Picklist --></label>
+        <name>Sample_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>A / B</masterLabel>
+            <translation><!-- A / B --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+        <picklistValues>
+            <masterLabel>Admitted</masterLabel>
+            <translation><!-- Admitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cured</masterLabel>
+            <translation><!-- Cured --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Died</masterLabel>
+            <translation><!-- Died --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Upsell Opportunity --></label>
+        <name>UpsellOpportunity__c</name>
+        <picklistValues>
+            <masterLabel>Maybe</masterLabel>
+            <translation><!-- Maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- New Record Type --></label>
+        <name>New_Record_Type</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Sample Account for Recording --></description>
+        <label><!-- Sample Account --></label>
+        <name>Sample_Account</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sample RT --></label>
+        <name>Sample_RT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sample RT New --></label>
+        <name>Sample_RT_New</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Billing --></label>
+        <name>Billing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Amend_Assets --></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Renew_Assets --></label>
+        <name>SBQQ__Renew_Assets</name>
+    </webLinks>
+</CustomObjectTranslation>

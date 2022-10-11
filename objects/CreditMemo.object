@@ -88,6 +88,10 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>AppType</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Balance</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -102,6 +106,10 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>CreationMode</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>CreditDate</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -111,6 +119,14 @@
     </fields>
     <fields>
         <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ExternalReference</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ExternalReferenceDataSource</fullName>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>

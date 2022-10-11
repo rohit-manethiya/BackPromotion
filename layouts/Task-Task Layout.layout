@@ -121,19 +121,10 @@
             <quickActionName>Task.UpdatePriority_1</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
-            <quickActionName>Task.EditDescription_0</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.Defer_0</quickActionName>
+            <quickActionName>FeedItem.TextPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>Task.UpdateStatus_0</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>Task.UpdatePriority_0</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>FeedItem.TextPost</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>FeedItem.ContentPost</quickActionName>
@@ -164,6 +155,15 @@
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>Task.UpdatePriority</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.UpdatePriority_0</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.EditDescription_0</quickActionName>
+        </quickActionListItems>
+        <quickActionListItems>
+            <quickActionName>Task.Defer_0</quickActionName>
         </quickActionListItems>
     </quickActionList>
     <relatedContent>

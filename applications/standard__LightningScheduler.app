@@ -3,6 +3,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Lightning Scheduler Setup</label>
     <navType>Standard</navType>
     <tabs>standard-LightningSchedulerSetupAssistant</tabs>
@@ -12,5 +13,6 @@
     <tabs>standard-WorkType</tabs>
     <tabs>standard-OperatingHours</tabs>
     <tabs>standard-ServiceAppointment</tabs>
+    <tabs>Deploy__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>
