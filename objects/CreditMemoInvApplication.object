@@ -89,22 +89,28 @@
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>Amount</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>AppliedDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>CreditMemoId</fullName>
+        <trackHistory>false</trackHistory>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Date</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>EffectiveDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>ImpactAmount</fullName>
@@ -112,13 +118,16 @@
     </fields>
     <fields>
         <fullName>InvoiceId</fullName>
+        <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
     </fields>
     <fields>
         <fullName>Type</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>UnappliedDate</fullName>
+        <trackHistory>false</trackHistory>
     </fields>
     <searchLayouts>
         <searchResultsAdditionalFields>Amount</searchResultsAdditionalFields>
