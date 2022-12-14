@@ -529,6 +529,16 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Test_Ignore__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Ignore</label>
+        <length>100</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
