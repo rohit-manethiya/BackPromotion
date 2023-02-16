@@ -1,0 +1,13 @@
+{
+    "DecisionMatrixType": "DecisionTable",
+    "Description": "",
+    "GroupKey": "",
+    "Name": "sampleteamRefundInfo",
+    "Namespace": "",
+    "SubGroupKey": "",
+    "Type": "",
+    "UniqueName": "sampleteamRefundInfo",
+    "VlocityDataPackType": "SObject",
+    "VlocityRecordSObjectType": "CalculationMatrix",
+    "VlocityRecordSourceKey": "CalculationMatrix/sampleteamRefundInfo"
+}
