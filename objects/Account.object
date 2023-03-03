@@ -539,6 +539,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>Test_Sample_Field_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Sample Field 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TickerSymbol</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
