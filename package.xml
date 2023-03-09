@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Account.New_City__c</members>
-        <name>CustomField</name>
+        <members>SBQQ__BlockPriceBefore</members>
+        <members>SBQQ__ColumnMetadataBefore</members>
+        <name>ApexTrigger</name>
     </types>
-    <version>57.0</version>
+    <version>53.0</version>
 </Package>
