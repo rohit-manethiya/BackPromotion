@@ -7,5 +7,5 @@
     <enableInsightsInTimeline>true</enableInsightsInTimeline>
     <enableInsightsInTimelineEacStd>false</enableInsightsInTimelineEacStd>
     <provisionProductivityFeatures>false</provisionProductivityFeatures>
-    <syncInternalEvents>false</syncInternalEvents>
+    <syncInternalEvents>true</syncInternalEvents>
 </EACSettings>
