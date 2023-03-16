@@ -503,6 +503,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Sample_Text__c</fullName>
+        <externalId>false</externalId>
+        <label>Sample Text</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>ShippingAddress</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
