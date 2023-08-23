@@ -136,6 +136,10 @@
         <fullName>OrgId</fullName>
     </fields>
     <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ParentId</fullName>
         <type>Lookup</type>
     </fields>
@@ -148,5 +152,5 @@
         <customTabListAdditionalFields>OrgId</customTabListAdditionalFields>
         <searchResultsAdditionalFields>OrgId</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -2,8 +2,9 @@
 <FlowSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <canDebugFlowAsAnotherUser>false</canDebugFlowAsAnotherUser>
     <doesEnforceApexCpuTimeLimit>true</doesEnforceApexCpuTimeLimit>
-    <doesFormulaEnforceDataAccess>true</doesFormulaEnforceDataAccess>
-    <doesFormulaGenerateHtmlOutput>true</doesFormulaGenerateHtmlOutput>
+    <doesFormulaEnforceDataAccess>false</doesFormulaEnforceDataAccess>
+    <doesFormulaGenerateHtmlOutput>false</doesFormulaGenerateHtmlOutput>
+    <enableEmailSimpleRespectProfiles>false</enableEmailSimpleRespectProfiles>
     <enableFlowBREncodedFixEnabled>true</enableFlowBREncodedFixEnabled>
     <enableFlowCustomPropertyEditor>false</enableFlowCustomPropertyEditor>
     <enableFlowDeployAsActiveEnabled>false</enableFlowDeployAsActiveEnabled>
@@ -14,14 +15,14 @@
     <enableFlowPauseEnabled>false</enableFlowPauseEnabled>
     <enableFlowReactiveScreens>false</enableFlowReactiveScreens>
     <enableFlowUseApexExceptionEmail>false</enableFlowUseApexExceptionEmail>
-    <enableFlowViaRestUsesUserCtxt>true</enableFlowViaRestUsesUserCtxt>
+    <enableFlowViaRestUsesUserCtxt>false</enableFlowViaRestUsesUserCtxt>
     <enableLightningRuntimeEnabled>true</enableLightningRuntimeEnabled>
-    <isAccessToInvokedApexRequired>true</isAccessToInvokedApexRequired>
+    <isAccessToInvokedApexRequired>false</isAccessToInvokedApexRequired>
     <isApexPluginAccessModifierRespected>true</isApexPluginAccessModifierRespected>
     <isEnhancedFlowListViewVisible>true</isEnhancedFlowListViewVisible>
-    <isFlowApexContextRetired>false</isFlowApexContextRetired>
-    <isFlowBlockAccessToSessionIDEnabled>false</isFlowBlockAccessToSessionIDEnabled>
+    <isFlowApexContextRetired>true</isFlowApexContextRetired>
+    <isFlowBlockAccessToSessionIDEnabled>true</isFlowBlockAccessToSessionIDEnabled>
     <isManageFlowRequiredForAutomationCharts>false</isManageFlowRequiredForAutomationCharts>
     <isSupportRollbackOnErrorForApexInvocableActionsEnabled>false</isSupportRollbackOnErrorForApexInvocableActionsEnabled>
-    <isTimeResumedInSameRunContext>false</isTimeResumedInSameRunContext>
+    <isTimeResumedInSameRunContext>true</isTimeResumedInSameRunContext>
 </FlowSettings>

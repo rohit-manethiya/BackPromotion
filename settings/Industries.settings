@@ -11,6 +11,7 @@
     <enableMultipleTopicsForShiftsOrgPref>false</enableMultipleTopicsForShiftsOrgPref>
     <enableOverbookingOrgPref>false</enableOverbookingOrgPref>
     <enableShareSaWithArOrgPref>false</enableShareSaWithArOrgPref>
-    <enableTopicTimeSlot>false</enableTopicTimeSlot>
+    <enableTopicOrTemplate>false</enableTopicOrTemplate>
+    <enableTopicTimeSlot>true</enableTopicTimeSlot>
     <rlaEditIfAccHasEdit>false</rlaEditIfAccHasEdit>
 </IndustriesSettings>
