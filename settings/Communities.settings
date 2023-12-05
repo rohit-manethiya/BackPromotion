@@ -13,6 +13,7 @@
     <enableGuestSecurityOptOutCruc>false</enableGuestSecurityOptOutCruc>
     <enableGuvSecurityOptOutPref>false</enableGuvSecurityOptOutPref>
     <enableInviteChatterGuestEnabled>true</enableInviteChatterGuestEnabled>
+    <enableNameFieldsUserPIIEnabled>false</enableNameFieldsUserPIIEnabled>
     <enableNetPortalUserReportOpts>false</enableNetPortalUserReportOpts>
     <enableNetworksEnabled>true</enableNetworksEnabled>
     <enableOotbProfExtUserOpsEnable>false</enableOotbProfExtUserOpsEnable>

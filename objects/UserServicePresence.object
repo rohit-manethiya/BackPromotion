@@ -24,10 +24,16 @@
         <fullName>ConfiguredCapacity</fullName>
     </fields>
     <fields>
+        <fullName>ConfiguredInterruptCapacity</fullName>
+    </fields>
+    <fields>
         <fullName>IdleDuration</fullName>
     </fields>
     <fields>
         <fullName>IdleStartTime</fullName>
+    </fields>
+    <fields>
+        <fullName>InterruptibleCapacity</fullName>
     </fields>
     <fields>
         <fullName>IsAway</fullName>
@@ -47,6 +53,9 @@
     </fields>
     <fields>
         <fullName>PreviousCapacity</fullName>
+    </fields>
+    <fields>
+        <fullName>PreviousInterruptibleCapacity</fullName>
     </fields>
     <fields>
         <fullName>ServicePresenceStatusId</fullName>

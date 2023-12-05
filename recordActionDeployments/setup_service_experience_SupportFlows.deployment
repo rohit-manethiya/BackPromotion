@@ -29,18 +29,25 @@
         <isAutopopEnabled>false</isAutopopEnabled>
     </channelConfigurations>
     <hasGuidedActions>true</hasGuidedActions>
+    <hasOmniscripts>false</hasOmniscripts>
     <hasRecommendations>false</hasRecommendations>
     <masterLabel>Support Flows</masterLabel>
     <selectableItems>
         <action>setup_service_experience__Create_Case</action>
+        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
+        <isFrequentAction>false</isFrequentAction>
         <type>Flow</type>
     </selectableItems>
     <selectableItems>
         <action>setup_service_experience__Verify_Cust</action>
+        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
+        <isFrequentAction>false</isFrequentAction>
         <type>Flow</type>
     </selectableItems>
     <selectableItems>
         <action>setup_service_experience__Reset_Pwd</action>
+        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
+        <isFrequentAction>false</isFrequentAction>
         <type>Flow</type>
     </selectableItems>
 </RecordActionDeployment>

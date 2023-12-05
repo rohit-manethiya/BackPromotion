@@ -2,7 +2,9 @@
 <AuthProvider xmlns="http://soap.sforce.com/2006/04/metadata">
     <friendlyName>LiveMessageSetup</friendlyName>
     <includeOrgIdInIdentifier>false</includeOrgIdInIdentifier>
+    <isPkceEnabled>false</isPkceEnabled>
     <providerType>Facebook</providerType>
+    <requireMfa>false</requireMfa>
     <sendAccessTokenInHeader>false</sendAccessTokenInHeader>
     <sendClientCredentialsInHeader>false</sendClientCredentialsInHeader>
     <sendSecretInApis>true</sendSecretInApis>

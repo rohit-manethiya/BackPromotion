@@ -9,7 +9,19 @@
         <fullName>ActiveTime</fullName>
     </fields>
     <fields>
+        <fullName>AcwExtensionCount</fullName>
+    </fields>
+    <fields>
+        <fullName>AcwExtensionDuration</fullName>
+    </fields>
+    <fields>
+        <fullName>AfterConversationActualTime</fullName>
+    </fields>
+    <fields>
         <fullName>AgentCapacityWhenDeclined</fullName>
+    </fields>
+    <fields>
+        <fullName>AgentIntCapacityWhenDeclined</fullName>
     </fields>
     <fields>
         <fullName>CancelDateTime</fullName>
@@ -36,6 +48,12 @@
         <fullName>DeclineReason</fullName>
     </fields>
     <fields>
+        <fullName>FlagIcon</fullName>
+    </fields>
+    <fields>
+        <fullName>FlagMessage</fullName>
+    </fields>
+    <fields>
         <fullName>HandleTime</fullName>
     </fields>
     <fields>
@@ -43,6 +61,15 @@
     </fields>
     <fields>
         <fullName>IsConference</fullName>
+    </fields>
+    <fields>
+        <fullName>IsFlagSupervisorOnly</fullName>
+    </fields>
+    <fields>
+        <fullName>IsFlagged</fullName>
+    </fields>
+    <fields>
+        <fullName>IsInterruptible</fullName>
     </fields>
     <fields>
         <fullName>IsOwnerChangeInitiated</fullName>

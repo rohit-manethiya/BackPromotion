@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="wireGetRelatedListRecords">
+        <template lwc:if={records}>
+            <div class="slds-m-around_medium">
+                <template for:each={records} for:item="rec">
+                    <a key={rec.fields.Id.value} data-record-id={rec.fields.Id.value} onmouseover={handleLinkHover}>{rec.fields.Name.value}({totalRecords})</a>
+                </template>
+                <div if:true={showModal} class="modal">
+                    <div class="modal-content">
+                        <lightning-datatable key-field="id" data={data} columns={columns}>
+                        </lightning-datatable>
+                        
+                        <div class="modal-footer">
+                            <lightning-button label="Close" onclick={closeModal}></lightning-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </lightning-card>
+</template>

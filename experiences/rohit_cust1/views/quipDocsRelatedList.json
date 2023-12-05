@@ -1,6 +1,7 @@
 {
   "appPageId" : "cf721b67-f767-423e-89d6-75b13f276496",
   "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
   "id" : "af96c86d-7741-4eb5-9444-9ddbf3573be7",
   "label" : "Quip Docs Related List",
   "regions" : [ {
