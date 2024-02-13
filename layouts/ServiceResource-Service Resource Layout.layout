@@ -7,16 +7,24 @@
         <label>Information</label>
         <layoutColumns>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SchedulingConstraintId</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
+                <behavior>Required</behavior>
                 <field>RelatedRecordId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>ResourceType</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsCapacityBased</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -27,6 +35,10 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>IsActive</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>IsOptimizationCapable</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -64,6 +76,9 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <miniLayout>
+        <fields>SchedulingConstraintId</fields>
+    </miniLayout>
     <relatedLists>
         <fields>ServiceAppointment</fields>
         <relatedList>ServiceAppointments</relatedList>
@@ -74,25 +89,6 @@
         <fields>EffectiveStartDate</fields>
         <fields>EffectiveEndDate</fields>
         <relatedList>ServiceResourceSkills</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHO_NAME</fields>
-        <fields>ACTIVITY.TASK</fields>
-        <fields>TASK.DUE_DATE</fields>
-        <fields>TASK.STATUS</fields>
-        <fields>TASK.PRIORITY</fields>
-        <fields>CORE.USERS.FULL_NAME</fields>
-        <relatedList>RelatedActivityList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>TASK.SUBJECT</fields>
-        <fields>TASK.WHO_NAME</fields>
-        <fields>ACTIVITY.TASK</fields>
-        <fields>TASK.DUE_DATE</fields>
-        <fields>CORE.USERS.FULL_NAME</fields>
-        <fields>TASK.LAST_UPDATE</fields>
-        <relatedList>RelatedHistoryList</relatedList>
     </relatedLists>
     <relatedLists>
         <fields>Name</fields>
@@ -118,21 +114,12 @@
         <relatedList>ResourceAbsences</relatedList>
     </relatedLists>
     <relatedLists>
-        <fields>CreatedDate</fields>
-        <fields>StepStatus</fields>
-        <fields>OriginalActor</fields>
-        <fields>Actor</fields>
-        <fields>Comments</fields>
-        <relatedList>RelatedProcessHistoryList</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Name</fields>
-        <fields>StartTime</fields>
-        <fields>EndTime</fields>
-        <fields>Status</fields>
-        <fields>Label</fields>
-        <fields>Type</fields>
-        <relatedList>ServiceResourceShifts</relatedList>
+        <fields>StartDate</fields>
+        <fields>EndDate</fields>
+        <fields>CapacityInHours</fields>
+        <fields>CapacityInWorkItems</fields>
+        <fields>TimePeriod</fields>
+        <relatedList>ResourceCapacities</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>

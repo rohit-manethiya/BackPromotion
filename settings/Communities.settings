@@ -4,8 +4,9 @@
     <blockEmbeddedLoginUnknownURLRedirect>false</blockEmbeddedLoginUnknownURLRedirect>
     <enableCspContactVisibilityPref>false</enableCspContactVisibilityPref>
     <enableEnablePRM>false</enableEnablePRM>
+    <enableExternalAccHierPref>false</enableExternalAccHierPref>
     <enableGuestPermDisOptOutCruc>false</enableGuestPermDisOptOutCruc>
-    <enableGuestRecordReassignOrgPref>false</enableGuestRecordReassignOrgPref>
+    <enableGuestRecordReassignOrgPref>true</enableGuestRecordReassignOrgPref>
     <enableGuestSecurityOptOutCruc>false</enableGuestSecurityOptOutCruc>
     <enableInviteChatterGuestEnabled>true</enableInviteChatterGuestEnabled>
     <enableNetworksEnabled>false</enableNetworksEnabled>

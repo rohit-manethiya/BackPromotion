@@ -3,7 +3,9 @@
     <doesEmailLogAsEmailMessageInOutlook>true</doesEmailLogAsEmailMessageInOutlook>
     <doesGmailStayConnectedToSalesforce>true</doesGmailStayConnectedToSalesforce>
     <enableContactAndEventSync>false</enableContactAndEventSync>
+    <enableContextualEverywhere>true</enableContextualEverywhere>
     <enableEngageForOutlook>false</enableEngageForOutlook>
+    <enableExtensionHostUnrestricted>true</enableExtensionHostUnrestricted>
     <enableGmailIntegration>true</enableGmailIntegration>
     <enableOutlookIntegration>false</enableOutlookIntegration>
     <isLayoutCustomizationAllowed>false</isLayoutCustomizationAllowed>

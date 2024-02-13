@@ -136,6 +136,10 @@
         <fullName>Name</fullName>
     </fields>
     <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>PartyId</fullName>
         <type>Lookup</type>
     </fields>
@@ -151,5 +155,5 @@
         <customTabListAdditionalFields>TotalLifeTimeValue</customTabListAdditionalFields>
         <searchResultsAdditionalFields>TotalLifeTimeValue</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -268,26 +268,6 @@
         <fullName>Type</fullName>
         <type>Picklist</type>
     </fields>
-    <listViews>
-        <fullName>AllActiveCampaigns</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>CAMPAIGN.ACTIVE</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
-        <label>All Active Campaigns</label>
-    </listViews>
-    <listViews>
-        <fullName>MyActiveCampaigns</fullName>
-        <filterScope>Mine</filterScope>
-        <filters>
-            <field>CAMPAIGN.ACTIVE</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
-        <label>My Active Campaigns</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CAMPAIGN.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>CAMPAIGN.STATUS</customTabListAdditionalFields>

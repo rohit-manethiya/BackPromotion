@@ -136,21 +136,18 @@
         <fullName>EndTime</fullName>
     </fields>
     <fields>
-        <fullName>MaxAppointments</fullName>
-    </fields>
-    <fields>
         <fullName>OperatingHoursId</fullName>
         <type>MasterDetail</type>
+    </fields>
+    <fields>
+        <fullName>RecordsetFilterCriteriaId</fullName>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>StartTime</fullName>
     </fields>
     <fields>
         <fullName>Type</fullName>
-    </fields>
-    <fields>
-        <fullName>WorkTypeGroupId</fullName>
-        <type>Lookup</type>
     </fields>
     <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -13,11 +13,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Role</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>EventId</field>
+                <field>EstimatedTravelTime</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -27,7 +23,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>IsRequiredResource</field>
+                <field>ActualTravelTime</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>

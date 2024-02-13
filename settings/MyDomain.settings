@@ -2,13 +2,17 @@
 <MyDomainSettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <canOnlyLoginWithMyDomainUrl>false</canOnlyLoginWithMyDomainUrl>
     <doesApiLoginRequireOrgDomain>false</doesApiLoginRequireOrgDomain>
-    <domainPartition>none</domainPartition>
+    <doesWarnOnForceComRedirect>false</doesWarnOnForceComRedirect>
+    <doesWarnOnRedirect>false</doesWarnOnRedirect>
+    <domainPartition>scratch</domainPartition>
+    <enableEdgeDuringRollout>true</enableEdgeDuringRollout>
     <enableNativeBrowserForAuthOnAndroid>false</enableNativeBrowserForAuthOnAndroid>
     <enableNativeBrowserForAuthOnIos>false</enableNativeBrowserForAuthOnIos>
     <enableShareBrowserSessionAndroidForAuth>false</enableShareBrowserSessionAndroidForAuth>
     <enableShareBrowserSessionIOSForAuth>false</enableShareBrowserSessionIOSForAuth>
+    <instancedUrlRedirectHandling>NoRedirect</instancedUrlRedirectHandling>
     <logRedirections>false</logRedirections>
-    <myDomainName>d2w00000ev2iyeaj-dev-ed</myDomainName>
+    <myDomainName>enterprise-agility-650-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>
     <redirectPriorMyDomain>true</redirectPriorMyDomain>

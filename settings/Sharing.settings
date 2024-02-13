@@ -3,12 +3,12 @@
     <deferGroupMembership>false</deferGroupMembership>
     <deferSharingRules>false</deferSharingRules>
     <enableAssetSharing>true</enableAssetSharing>
-    <enableCommunityUserVisibility>true</enableCommunityUserVisibility>
+    <enableCommunityUserVisibility>false</enableCommunityUserVisibility>
     <enableExternalSharingModel>true</enableExternalSharingModel>
     <enableManagerGroups>false</enableManagerGroups>
     <enableManualUserRecordSharing>false</enableManualUserRecordSharing>
     <enablePortalUserCaseSharing>true</enablePortalUserCaseSharing>
-    <enablePortalUserVisibility>true</enablePortalUserVisibility>
+    <enablePortalUserVisibility>false</enablePortalUserVisibility>
     <enableRemoveTMGroupMembership>false</enableRemoveTMGroupMembership>
     <enableRestrictAccessLookupRecords>false</enableRestrictAccessLookupRecords>
     <enableSecureGuestAccess>false</enableSecureGuestAccess>

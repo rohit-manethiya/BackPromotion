@@ -168,6 +168,20 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
+    <actionOverrides>
+        <actionName>headlessPricingAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>headlessPricingAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>headlessPricingAction</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
     <fields>
@@ -257,71 +271,6 @@
         <trackHistory>true</trackHistory>
         <type>Picklist</type>
     </fields>
-    <listViews>
-        <fullName>AllActivatedContracts</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>CONTRACT.STATUS_CODE</field>
-            <operation>equals</operation>
-            <value>A</value>
-        </filters>
-        <label>All Activated Contracts</label>
-    </listViews>
-    <listViews>
-        <fullName>AllContracts</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All Contracts</label>
-    </listViews>
-    <listViews>
-        <fullName>AllDraftContracts</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>CONTRACT.STATUS_CODE</field>
-            <operation>equals</operation>
-            <value>D</value>
-        </filters>
-        <label>All Draft Contracts</label>
-    </listViews>
-    <listViews>
-        <fullName>AllInApprovalContracts</fullName>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>CONTRACT.STATUS_CODE</field>
-            <operation>equals</operation>
-            <value>P</value>
-        </filters>
-        <label>All In Approval Contracts</label>
-    </listViews>
-    <listViews>
-        <fullName>MyActivatedContracts</fullName>
-        <filterScope>Mine</filterScope>
-        <filters>
-            <field>CONTRACT.STATUS_CODE</field>
-            <operation>equals</operation>
-            <value>A</value>
-        </filters>
-        <label>My Activated Contracts</label>
-    </listViews>
-    <listViews>
-        <fullName>MyDraftContracts</fullName>
-        <filterScope>Mine</filterScope>
-        <filters>
-            <field>CONTRACT.STATUS_CODE</field>
-            <operation>equals</operation>
-            <value>D</value>
-        </filters>
-        <label>My Draft Contracts</label>
-    </listViews>
-    <listViews>
-        <fullName>MyInApprovalContracts</fullName>
-        <filterScope>Mine</filterScope>
-        <filters>
-            <field>CONTRACT.STATUS_CODE</field>
-            <operation>equals</operation>
-            <value>P</value>
-        </filters>
-        <label>My In Approval Contracts</label>
-    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CONTRACT.CONTRACT_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>
