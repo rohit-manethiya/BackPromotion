@@ -464,6 +464,16 @@
         </valueSet>
     </fields>
     <fields>
+        <fullName>Sample_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Sample Field</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>Sample_Text__c</fullName>
         <externalId>false</externalId>
         <label>Sample Text</label>
