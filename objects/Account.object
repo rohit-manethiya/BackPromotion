@@ -405,6 +405,16 @@
         <unique>false</unique>
     </fields>
     <fields>
+        <fullName>New_Sample_Field_Test__c</fullName>
+        <externalId>false</externalId>
+        <label>New Sample Field Test</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>New_Text_Field__c</fullName>
         <externalId>false</externalId>
         <label>New Text Field</label>
