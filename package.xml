@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>SampleClassTest3</members>
-        <name>ApexClass</name>
+        <members>Account.New_Text_Field__c</members>
+        <members>Account.Sample_Field__c</members>
+        <name>CustomField</name>
     </types>
-    <version>60.0</version>
+    <version>62.0</version>
 </Package>
